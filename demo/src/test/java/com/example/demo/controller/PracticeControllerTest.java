@@ -25,7 +25,7 @@ import com.example.demo.repository.PersonRepository;
 
 @SpringBootTest(classes = DemoApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-public class PracticeControllerTestRestTemplate {
+public class PracticeControllerTest {
 	@LocalServerPort
 	private int port = 8080;
 	
